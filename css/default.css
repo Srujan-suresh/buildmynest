@@ -678,7 +678,9 @@ input::placeholder, textarea::placeholder {
   left: 0;
   width: 100%;
   z-index: 1000; /* Keeps it above other elements */
-  background: #25212F;
+  /* background: #25212F; */
+    background: #25212F;
+
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow when sticky */
 }

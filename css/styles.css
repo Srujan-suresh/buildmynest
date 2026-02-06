@@ -239,7 +239,7 @@ width: 400px;
 
 .banner .overlay, .breadcrumb .overlay {
   background-color: transparent;
-  background-image: radial-gradient(at top center, #0C0C0E 0%, #25212F 100%);
+  background-image: radial-gradient(at top center, transparent 0%, transparent 100%);
   opacity: .9;
 }
 
