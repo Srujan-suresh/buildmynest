@@ -166,7 +166,7 @@ header {
 .banner-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.45);
+  background: rgba(0,0,0,0.6);
   z-index: 1;
 }
 
@@ -186,8 +186,26 @@ header {
 .nav-link.active {
   color: orange;
 }
+.header-nav-menu {
+  position: relative;
+  z-index: 1050;
+}
 
-  </style>
+.dropdown-menu {
+  z-index: 1100;
+}
+.banner {
+  position: relative;
+  z-index: 1;
+}
+.header,
+.header-inner,
+.header-nav-menu,
+.header-nav-menu-inner {
+  overflow: visible !important;
+}
+
+</style>
 
   <!-- Service Section Starts -->
   <section class="service pt-7 pb-10">
@@ -648,7 +666,7 @@ header {
           <div class="col-lg-4 col-md-6 d-flex">
             <div class="listing-box p-2 border-dashed border-2 bg-white">
               <div class="listing-image">
-                <img src="images/stylish-door-in-european-residential-building-2023-12-27-22-36-34-utc.jpg" alt="Luxury Villas" class="w-100">
+                <img src="images/relax-area-resort (2).jpg" alt="Luxury Villas" class="w-100">
               </div>
               <div class="listing-info p-4 text-center border border-1 border-grey2">
                 <h4 class="black">Luxury Villas</h4>
@@ -680,7 +698,7 @@ header {
           <div class="col-lg-4 col-md-6">
             <div class="listing-box p-2 border-dashed border-2 bg-white border-light-orange">
               <div class="listing-image">
-                <img src="images/stylish-living-room-interior-of-modern-apartment-w-2023-12-19-20-11-39-utc.jpg" alt="Kitchen & Bathroom Renovation" class="w-100">
+                <img src="images/view-empty-kitchen (1) (1).jpg" alt="Kitchen & Bathroom Renovation" class="w-100">
               </div>
               <div class="listing-info p-4 text-center border border-1 border-grey2">
                 <h4 class="black">Kitchen & Bathroom Remodeling</h4>
@@ -1161,10 +1179,10 @@ header {
                   <div class="footer-link">
                     <h5 class="orange mb-6">Useful Links</h5>
                     <ul class="list-unstyled">
+                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="index.html">Home</a></li>
                       <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="about.html">About Us</a></li>
-                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="service.html">Services</a></li>
-                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="listing.html">Listing</a></li>
-                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="blog-list.html">News & Articles</a></li>
+                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="service.html">Services</a></li>  
+                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="price.html">Pricing</a></li>
                       <li><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="contact.html">Contact Us</a></li>
                     </ul>
                   </div>
@@ -1174,25 +1192,37 @@ header {
                     <h5 class="orange mb-6">Our Services</h5>
                     <ul class="list-unstyled">
                       <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="service.html">Property Solutions</a></li>
-                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="listing.html">Property</a></li>
-                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="listing.html">Real Estate</a></li>
-                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="listing.html">House & Store</a></li>
-                      <li><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="listing.html">Apartment</a></li>
+                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="service.html">Property</a></li>
+                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="service.html">Real Estate</a></li>
+                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="service.html">House & Store</a></li>
+                      <li><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="service.html">Apartment</a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <div class="footer-link">
-                    <h5 class="orange mb-6">New Listing</h5>
-                    <ul class="list-unstyled">
-                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="listing.html">Buy Appartments</a></li>
-                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="listing.html">Buy Houses</a></li>
-                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="listing.html">Rent Industrial</a></li>
-                      <li class="mb-4"><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="listing.html">Rent Villas</a></li>
-                      <li><img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2"> <a href="listing.html">Rend Office</a></li>
-                    </ul>
-                  </div>
-                </div>
+  <div class="footer-link">
+    <h5 class="orange mb-6">Quick Access</h5>
+    <ul class="list-unstyled">
+      <li class="mb-4">
+        <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2">
+        <a href="#">More Links</a>
+      </li>
+      <li class="mb-4">
+        <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2">
+        <a href="about.html">Explore</a>
+      </li>
+      <li class="mb-4">
+        <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2">
+        <a href="service.html">Discover</a>
+      </li>
+      <li>
+        <img src="images/right-arrow-white.PNG" alt="arrow-icon" class="btn-arrow me-2">
+        <a href="contact.html">Quick Access</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
               </div>
             </div>
           </div>
